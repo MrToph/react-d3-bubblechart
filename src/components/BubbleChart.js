@@ -13,4 +13,5 @@ export default function BubbleChart({ width, height, children }) {
 BubbleChart.propTypes = {
   width: PropTypes.number.isRequired,
   height: PropTypes.number.isRequired,
+  children: PropTypes.node,
 }
