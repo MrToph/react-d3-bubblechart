@@ -2,6 +2,7 @@
   "name": "bubble-chart",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://cmichel.io/projects/react-d3-bubblechart",
   "devDependencies": {
     "react-scripts": "0.8.5",
     "babel-eslint": "7.1.1",

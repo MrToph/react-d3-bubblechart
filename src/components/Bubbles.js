@@ -21,7 +21,6 @@ export default class Bubbles extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    console.log('componentWillReceiveProps', nextProps, nextProps.data !== this.props.data)
     if (nextProps.data !== this.props.data) {
       this.renderBubbles(nextProps.data)
     }
